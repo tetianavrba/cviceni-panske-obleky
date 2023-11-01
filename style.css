@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Fashion Victim';
-  src: url(fonts/fashion-victim.woff2) format('woff2');
+  src: url("./fonts/fashion-victim.woff2") format('woff2');
 }
 
 * {
@@ -27,14 +27,14 @@ header {
   height: 360px;
 }
 
-h1.site-title {
+.site-title {
   font-family: 'Fashion Victim';
   font-size: 6rem;
   font-weight: normal;
   text-align: center;
 }
 
-h1.site-title span {
+.site-title span {
   margin: 0 2rem;
 }
 
@@ -44,14 +44,15 @@ h1.site-title span {
   margin-right: auto;
 }
 
-
-
 .product {
   display: flex;
   flex-wrap: wrap;
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  gap: 5rem;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .product__colors {
@@ -119,9 +120,8 @@ h1.site-title span {
   border-radius: 1rem;
   padding: 5px;
   width: 140px;
-  position: absolute;
-  right: 30%;
-  top: 55%
+  max-height: 2rem;
+
 }
 
 .button:hover {
