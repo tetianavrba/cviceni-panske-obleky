@@ -47,23 +47,28 @@ header {
 .product {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -5rem;
+  margin: 0 auto;
   padding: 3rem;
   background-color: #141518;
-  gap: 5rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
-.product__colors {
+#product-image {
+  margin: auto 1rem;
+
+}
+
+/* .product__colors {
   padding-left: 50px;
-
-}
+} */
 
 .colors {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: auto;
 }
 
 .color-box {
